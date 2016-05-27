@@ -121,7 +121,6 @@ public class EditorActivity extends AppCompatActivity implements OnMapReadyCallb
             CameraUpdate markerLocation = CameraUpdateFactory.newLatLngZoom(latLng, 15);
             mMap.animateCamera(markerLocation);
         } else {
-            Toast.makeText(getApplicationContext(), "Unable to mark location.", Toast.LENGTH_LONG).show();
             LatLng latLng = new LatLng(52.092876,5.104480);
             CameraUpdate markerLocation = CameraUpdateFactory.newLatLngZoom(latLng, 6);
             mMap.animateCamera(markerLocation);
