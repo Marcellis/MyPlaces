@@ -1,5 +1,13 @@
 <resources>
+
     <string name="app_name">MyPlaces</string>
     <string name="title_activity_editor_acitvity">Map</string>
+
+    <!-- Menu actions -->
+    <string name="action_add">Add</string>
+    <string name="action_done">Done</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all">Delete all</string>
+
 </resources>
 
